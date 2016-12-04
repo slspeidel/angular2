@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SlsOtherComponent } from './sls-other/sls-other.component';
 import { SlsAnotherComponent } from './sls-other/sls-another.component';
+import { SlsDatabindingComponent } from './sls-databinding/sls-databinding.component';
+import { SlsPropertyBindingComponent } from './sls-databinding/sls-property-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SlsOtherComponent,
-    SlsAnotherComponent
+    SlsAnotherComponent,
+    SlsDatabindingComponent,
+    SlsPropertyBindingComponent
   ],
   imports: [
     BrowserModule,

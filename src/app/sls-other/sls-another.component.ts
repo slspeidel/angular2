@@ -12,6 +12,9 @@ import { Component, OnInit } from '@angular/core';
     h1 {
       color: red;
     }
+    p {
+      color: blue;
+    }
   `]
 })
 export class SlsAnotherComponent implements OnInit {
